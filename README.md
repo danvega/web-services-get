@@ -9,4 +9,5 @@ Before running the Java application you will need to go into the server folder a
 ## Running the Java Application
 
 mvn clean compile assembly:single
+
 java -jar target/java -jar target/client-1.0-SNAPSHOT-jar-with-dependencies.jar
